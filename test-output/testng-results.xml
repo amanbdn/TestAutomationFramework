@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45732" started-at="2017-12-24T18:13:10Z" finished-at="2017-12-24T18:13:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45732" started-at="2017-12-24T18:13:10Z" finished-at="2017-12-24T18:13:55Z">
+      <class name="Scripts.Script1">
+        <test-method status="PASS" signature="fnBeforeSuite()[pri:0, instance:Scripts.Script1@53b32d7]" name="fnBeforeSuite" is-config="true" duration-ms="204" started-at="2017-12-24T23:43:09Z" finished-at="2017-12-24T23:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnBeforeSuite -->
+        <test-method status="PASS" signature="fnBeforeMethod(java.lang.reflect.Method)[pri:0, instance:Scripts.Script1@53b32d7]" name="fnBeforeMethod" is-config="true" duration-ms="18429" started-at="2017-12-24T23:43:10Z" finished-at="2017-12-24T23:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Scripts.Script1.fnTestN1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnBeforeMethod -->
+        <test-method status="PASS" signature="fnTestN1()[pri:0, instance:Scripts.Script1@53b32d7]" name="fnTestN1" duration-ms="26623" started-at="2017-12-24T23:43:28Z" finished-at="2017-12-24T23:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnTestN1 -->
+        <test-method status="PASS" signature="fnAfterMethod()[pri:0, instance:Scripts.Script1@53b32d7]" name="fnAfterMethod" is-config="true" duration-ms="663" started-at="2017-12-24T23:43:55Z" finished-at="2017-12-24T23:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnAfterMethod -->
+        <test-method status="PASS" signature="fnAfterSuite()[pri:0, instance:Scripts.Script1@53b32d7]" name="fnAfterSuite" is-config="true" duration-ms="516" started-at="2017-12-24T23:43:55Z" finished-at="2017-12-24T23:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fnAfterSuite -->
+      </class> <!-- Scripts.Script1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

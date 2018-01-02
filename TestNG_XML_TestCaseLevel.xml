@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+<test name="Framework" preserve-order="true">
+<classes>
+	<class name="Scripts.Script1">
+		<methods>
+			<include name="fnTestN1"/>
+		</methods>
+		<!--
+		Syntax to Exclude the Methods in TestNG
+		<methods>
+			<exclude name="fnTestN1"/>
+		</methods>
+		-->
+		
+	</class>
+</classes>
+</test>
+</suite>
